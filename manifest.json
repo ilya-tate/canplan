@@ -1,0 +1,10 @@
+{
+	"name": "CanPlan",
+	"description": "Visualize your Canvas assignments with style",
+	"version": "0.2.0",
+	"manifest_version": 3,
+	"action": {
+		"default_popup": "canplan.html",
+		"default_icon": "icon.png"
+	}
+}
