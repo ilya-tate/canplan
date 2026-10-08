@@ -1,13 +1,13 @@
 {
-	"name": "CanPlan",
-	"description": "Visualize your Canvas assignments with style",
-	"version": "0.2.0",
-	"manifest_version": 3,
-	"action": {
-		"default_icon": "icon.png"
-	},
-	"background": {
-			"service_worker": "canplan.js"
-	},
-	"permissions": ["activeTab"]
+  "name": "CanPlan",
+  "description": "Visualize your Canvas assignments with style",
+  "version": "0.2.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "canplan.js"
+  },
+  "permissions": ["activeTab"]
 }
