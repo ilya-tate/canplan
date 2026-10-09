@@ -1,6 +1,45 @@
-<html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CanPlan</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
   <body>
-    <h1>Welcome to CanPlan!</h1>
-    <p>This extension is currently being rebuilt. Please be patient.</p>
+    <header>
+      <hgroup>
+        <h1>CanPlan</h1>
+        <p id="source">canvas.com</p>
+      </hgroup>
+      <output id="status">Not yet synced</output>
+      <button id="sync">Sync with Canvas</button>
+    </header>
+
+    <main>
+      <p>
+        <span id="window-summary">0 assignments</span>
+      </p>
+
+      <section id="week-view">
+        <p>
+          <button id="week-prev">‹</button>
+          <button id="week-next">›</button>
+          <button id="week-today">This week</button>
+          <strong id="week-label">This week</strong>
+        </p>
+        <ol id="week">
+          <li>Mon</li>
+          <li>Tue</li>
+          <li>Wed</li>
+          <li>Thu</li>
+          <li>Fri</li>
+          <li>Sat</li>
+          <li>Sun</li>
+        </ol>
+      </section>
+
+      <ul id="assignments" hidden></ul>
+    </main>
   </body>
 </html>

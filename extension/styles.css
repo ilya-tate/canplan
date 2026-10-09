@@ -1,0 +1,10 @@
+#week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  list-style: none;
+  padding: 0;
+}
+#week > li {
+  border: 1px solid;
+  min-height: 400px;
+}
