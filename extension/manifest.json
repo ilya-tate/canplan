@@ -7,7 +7,7 @@
     "default_icon": "icon.png"
   },
   "background": {
-    "service_worker": "canplan.js"
+    "service_worker": "open-tab.js"
   },
   "permissions": ["activeTab"]
 }
